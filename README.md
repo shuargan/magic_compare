@@ -1,8 +1,8 @@
 # MagicCompare
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/magic_compare`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem will help you to compare any kind of string sanitizing the string, ingnoring case, accents, etc.
+You can also check if a string is include in an array of string with same logic as the simple compare.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+use the methods magic_compare(string_to_compare) or  magic_include?(string_to_check)
 
 ## Development
 
@@ -32,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/magic_compare.
+Bug reports and pull requests are welcome on GitHub at https://github.com/shuargan/magic_compare.
 
 ## License
 
